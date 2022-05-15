@@ -127,6 +127,7 @@ export const Button = styled.button`
   font-size: 1.2vw;
   line-height: 120%;
   cursor: pointer;
+  color: black;
 
   @media only screen and (max-width: 800px) {
     width: 35vw;
