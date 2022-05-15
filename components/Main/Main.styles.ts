@@ -82,7 +82,7 @@ export const Tile = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: space-between;
+  align-items: center;
   margin: 0 1.5vw;
 
   @media only screen and (max-width: 800px) {
@@ -163,6 +163,7 @@ export const P = styled.text`
   @media only screen and (max-width: 800px) {
     font-size: 2.5vw;
     width: 90vw;
+    text-align: center;
   }
 `;
 

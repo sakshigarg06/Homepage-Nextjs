@@ -59,7 +59,6 @@ export const Nav = styled.div`
   padding: 3vh;
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row;
   flex-wrap: wrap;
   @media only screen and (max-width: 800px) {
     padding: 3vh 3vw;
@@ -72,8 +71,13 @@ export const Li = styled.div`
   font-weight: 700;
   font-size: 0.8vw;
   line-height: 120%;
-  color: #ffffff ;
-  display:flex;
+  color: #ffffff;
+  display: flex;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 3vw;
+    margin: 2vh 2vw;
+  }
 `;
 
 export const A = styled.a`
@@ -84,12 +88,16 @@ color: #ffffff ;
 `;
 
 export const Span = css`
-margin-left: 0.5vw;
-height: 10px;
-padding: 0.1vw 0.2vw;
-font-weight: 700;
-font-size: 0.7vw;
-line-height: 120%;
+  margin-left: 0.5vw;
+  height: 10px;
+  padding: 0.1vw 0.2vw;
+  font-weight: 700;
+  font-size: 0.7vw;
+  line-height: 120%;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 1.5vw;
+  }
 `;
 
 export const Beta = styled.div`
@@ -115,15 +123,17 @@ export const Span2 = styled.div`
 `;
 
 export const Span3 = styled.div`
-
   font-weight: 600;
   font-size: 0.7vw;
   line-height: 120%;
   color: #ffffff;
-
   text-align: right;
   position: relative;
   right: 1vw;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 1.2vw;
+  }
 `;
 
 export const Login = styled.button`
@@ -139,7 +149,9 @@ export const Login = styled.button`
 
   @media only screen and (max-width: 800px) {
     height: 3vh;
-    font-size: 1vw;
+    width: 10vw;
+    font-size: 2vw;
+    margin-right: 2vw;
   }
 `;
 
@@ -160,6 +172,7 @@ export const Signup = styled.button`
 
   @media only screen and (max-width: 800px) {
     height: 3vh;
-    font-size: 1vw;
+    width: 10vw;
+    font-size: 2vw;
   }
 `;
